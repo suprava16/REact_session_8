@@ -1,7 +1,7 @@
 //props- used to pass data from one compoenent to another.
 
 import React from "react"
-
+import ComponentA from "./ComponentA"
 class PropsCom extends React.Component{
 
   render(){
@@ -15,6 +15,7 @@ class PropsCom extends React.Component{
         <h1>email:{this.props.email}</h1>
         <h1>age:{this.props.age}</h1>
         <h1>address:{this.props.address}</h1>
+        <ComponentA  roll={300} data={this.props}/>
       </div>
     )
   }
