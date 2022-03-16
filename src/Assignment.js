@@ -11,3 +11,24 @@ setsatate(
   update
 )
 } */}
+
+// array.Map((item,i)=>{
+//   return(
+//     <div>
+//       <li>{item}</li>
+//       <button onClick={()=>{this.handleClick(item,i)}}>completed</button>
+//     </div>
+//   )
+// })
+
+// handleClick=(item,i)=>{
+// var temp=this.State.array2
+// temp.push(item)
+// var tem2=this.state.array1
+// temp2.splice(i,1)
+// this.setState ({
+//   array1:temp2,
+//   array2:temp
+// })
+
+// }

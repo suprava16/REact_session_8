@@ -8,6 +8,7 @@ import AddData from "./StateVariables/AddData"
 import ArrayCom from "./Array/ArrayCom"
 import ArrayObject from "./Array/ArrayObject"
 import Conditions from "./ConditionalRenderning/Conditions"
+import Post_method from "./API/Post_method"
 class App extends React.Component {
   render() {
     return (
@@ -19,7 +20,8 @@ class App extends React.Component {
         {/* <AddData/> */}
         {/* <ArrayCom/> */}
         {/* <ArrayObject/> */}
-        <Conditions/>
+        {/* <Conditions/> */}
+        <Post_method/>
       </>
 
 
