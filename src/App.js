@@ -13,6 +13,8 @@ import Axios_Post_method from "./API/Axios_Post_method"
 import Greet from "./FunctionalComponents/Greet"
 import Props_methods from "./FunctionalComponents/Props_method"
 import State_Variable from "./FunctionalComponents/State_Variable"
+import OnChange_Method from "./FunctionalComponents/OnChange_Method"
+import React_Router from "./Routing/React_Router"
 class App extends React.Component {
   render() {
     return (
@@ -29,7 +31,9 @@ class App extends React.Component {
         {/* <Axios_Post_method/> */}
         {/* <Greet/> */}
         {/* <Props_methods name="suprava" age={27}/> */}
-        <State_Variable/>
+        {/* <State_Variable/> */}
+        {/* <OnChange_Method/> */}
+        <React_Router/>
       </>
 
 
