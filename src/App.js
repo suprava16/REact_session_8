@@ -15,6 +15,7 @@ import Props_methods from "./FunctionalComponents/Props_method"
 import State_Variable from "./FunctionalComponents/State_Variable"
 import OnChange_Method from "./FunctionalComponents/OnChange_Method"
 import React_Router from "./Routing/React_Router"
+import Design from "./Material_Ui/Design"
 class App extends React.Component {
   render() {
     return (
@@ -33,7 +34,8 @@ class App extends React.Component {
         {/* <Props_methods name="suprava" age={27}/> */}
         {/* <State_Variable/> */}
         {/* <OnChange_Method/> */}
-        <React_Router/>
+        {/* <React_Router/> */}
+        <Design/>
       </>
 
 

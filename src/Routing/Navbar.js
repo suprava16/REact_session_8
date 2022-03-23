@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <div>
       <Link to="/home">Home</Link> |
-      <Link to="/about">About</Link> |
+      <Link to="/about" state={{name:"Reactjs"}}>About</Link> |
      
-      <Link to="/contact">Contact</Link>
+      <Link to="/contact/123">Contact</Link>
       <Outlet/>
      
     </div>
