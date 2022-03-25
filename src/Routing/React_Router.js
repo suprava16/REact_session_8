@@ -19,7 +19,7 @@ function React_Router() {
           {/* handling error page */}
           {/* <Route path="*" element={<Error/>}/> */}
           <Route path="/error" element={<Error/>}/>
-          <Route path="*" element={<Navigate to="/home"/>}/>
+          <Route path="*" element={<Navigate to="/error"/>}/>
         </Routes>
       </BrowserRouter>
     </div>
